@@ -1,3 +1,2 @@
 math
-pytest
-scipy.integrate
+scipy
