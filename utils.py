@@ -8,10 +8,7 @@ def fact(n):
 	Post: Returns the factorial of 'n'.
 	Throws: ValueError if n < 0
 	"""
-	if n < 0:
-		return None
-	else:
-		return math.factorial(n)
+	return math.factorial(n)
 
 def roots(a, b, c):
 	"""Computes the roots of the ax^2 + bx + x = 0 polynomial.
